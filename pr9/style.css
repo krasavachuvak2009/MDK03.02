@@ -1,0 +1,113 @@
+.line {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.line li {
+    display: inline-block; 
+    background-color: #ffb6c1; 
+    color: black;
+    padding: 15px 25px; 
+    margin-right: 10px; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.links a {
+    display: block; 
+    background-color: blue; 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px;
+    margin-bottom: 5px; 
+    width: 200px; 
+    font-family: sans-serif;
+}
+.blocks {
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.blocks div {
+    display: inline; 
+    background-color: red; 
+    color: black;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.blocks .non {
+    display: none; 
+}
+.links-markers {
+    margin-top: 20px;
+}
+
+.links-markers a {
+    display: list-item;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 20px; 
+    width: 150px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.image {
+    width: 120px; 
+    height: 80px; 
+    background-image: url('../media/sun.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px dashed red; 
+    box-sizing: border-box;
+}
+.post1, .post2 {
+    background-color: #930303; 
+    color: white; 
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden; 
+}
+.post1 h2, .post2 h2 {
+    margin-top: 0;
+    font-size: 16px;
+}
+.post1 .image {
+    float: left; 
+    margin-right: 15px; 
+    margin-bottom: 10px;
+}
+
+.post2 .image {
+    float: right; 
+    margin-left: 15px; 
+    margin-bottom: 10px;
+}
+.weather-date {
+    background-color: #008080; 
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.weather-item {
+    float: left; 
+    width: 30%; 
+    text-align: center;
+    margin-right: 3%;
+    font-family: sans-serif;
+}
+
+.weather-temp {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.weather-item img {
+    max-width: 100px;
+    height: auto;
+}
