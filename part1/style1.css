@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    margin-bottom: 5px;
+}
+
+/* Стили для ссылок в меню */
+nav a {
+    color: #0000EE; /* Стандартный синий цвет ссылки */
+    text-decoration: underline; /* Подчеркивание, как у ссылок */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    transition: color 0.2s; /* Плавность смены цвета */
+}
+
+nav a:hover {
+    color: #FF0000; /* Меняем цвет на красный при наведении */
+    background-color: #FFFFCC; /* Легкий желтый фон для подсветки */
+}
+
+h2, h3 {
+    color: #333;
+}
